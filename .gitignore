@@ -50,3 +50,5 @@ db.sqlite3
 venv/
 
 .history
+/.venv/
+staticfiles/

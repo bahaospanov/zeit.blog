@@ -139,7 +139,7 @@ if MIGRATE:
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        "NAME": "django.contrib.authn.password_validation.CommonPasswordValidator",
+        "NAME": "django.contrib.auth.password_validation.CommonPasswordValidator",
     },
 ]
 
@@ -191,7 +191,7 @@ DOMAIN_LANGUAGE_SELECTOR = [
 
 STATIC_URL = "static/"
 
-# STATIC_ROOT = BASE_DIR / "frontend/test"
+# STATIC_ROOT = BASE_DIR / "staticfiles"
 
 STATICFILES_DIRS = [
     BASE_DIR / "frontend/static",
